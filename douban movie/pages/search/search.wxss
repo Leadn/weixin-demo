@@ -1,0 +1,15 @@
+.search{
+	text-align: center;
+	border: 2rpx solid #eeeeee;
+    border-radius: 15rpx;
+	width: 90%;
+	height: 5%;
+	padding: 10rpx 0rpx;
+	margin: 10rpx auto;
+	background-color: #eeeeee;
+}
+.holder{
+	color:#888888;
+	background: url("../../images/search.png")no-repeat 40% 50%;
+	background-size: 40rpx;
+}

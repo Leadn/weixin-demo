@@ -1,0 +1,35 @@
+<view class="container">
+<form bindsubmit="formSubmit">
+    <view class="name section section_grap">
+       <view>您的姓名:</view>
+       <input name="input" placeholder="请输入" auto-focus/>
+     </view>
+    <view class="area section section_grap">
+        <view class="section__title">你所在地区:</view>
+        <picker  value="{{area}}" range="{{array}}" bindchange="bindPickerChange" value="{{area}}">
+        <view class="picker">{{array[area]}}</view>
+      </picker>
+    </view>
+    <view class="section section_grap">
+        <text>来源渠道</text>
+        <radio-group bindchange="radioChange">
+          <label class="radio" wx:for="{{items}}">
+          <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+          </label>
+        </radio-group>
+    </view>
+    <view class="section section_grap">
+    <view class="section__title">豆瓣电影宣传是否激起您的兴趣</view>
+    <switch name="switch"  bindchange="switchChange" value="{{switch}}"/>
+  </view>
+   <view class="score section section_grap">
+      <text class="section__title">请给我们打分</text>
+    <view class="body-view">
+      <slider  min="0" max="100" show-value bindchange="sliderchange" value="{{score}}"/>
+    </view>
+  </view>
+  <view class="submit">
+    <button formType="submit"class="sbt">提交</button>
+  </view>
+</form>
+</view>

@@ -1,0 +1,19 @@
+
+<view class="container">
+  <input type="text" placeholder="搜索" maxlength="10" auto-focus placeholder-class="holder" class="search" bindblur="post" bindfocus="focus"/>
+	 <view class="list" wx:for="{{list}}">
+	<navigator url="../item/item?id={{item.id}}">
+		<view class="list-item">
+			<view class="item-l">
+				<image src="{{item.images.large}}" class="pic" />
+				<view class="desc">
+					<text class="text1">{{item.title}}</text>
+					<text class="text2">{{item.title}}{{item.year}}</text>
+					<p class="text3">导演：{{item.directors[0].name}}</p>
+				</view>
+			</view>
+			<view class="item-r"><text>{{item.rating.average}}</text></view>
+		</view>
+	</navigator>
+	</view>
+</view>

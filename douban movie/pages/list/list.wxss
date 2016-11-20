@@ -1,0 +1,66 @@
+.mov-titile{
+	border-bottom: 2rpx solid #eeeeee;
+	color: #999999;
+	text-align: center;
+	font-size: 40rpx;
+	padding: 40rpx;
+	font-weight: bolder;
+}
+/*.list{
+	border: 2rpx solid #eeee;
+	display: flex;
+	flex-direction: column;
+}
+.list .list-item{
+	flex: 1;
+	display: flex;
+	border-bottom: 2rpx solid #eeeeee;
+	padding: 40rpx 50rpx 40rpx 40rpx;
+}
+.list .item-r{
+	width: 40rpx;
+	height: 40rpx;
+	color: #f74c31;
+	font-weight: bolder;
+	padding-left: 10rpx;
+	text-align: right;
+}
+.list .item-l{
+	flex: 1;
+	display: flex;
+}
+.item-l .pic{
+	width: 200rpx;
+	height: 200rpx;
+	padding-right: 20rpx;
+}
+.item-l .desc{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+.desc .text1{
+ color:#000000;
+ font-size: 45rpx;
+ font-weight: bolder;
+ flex: 1;
+}
+.desc .text2{
+	color:#c0c0c0;
+	font-size: 30rpx;
+	font-weight: bolder;
+	flex: 1;
+}
+.desc .text3{
+	color:#999999;
+	font-size: 30rpx;
+	font-weight: bolder;
+	flex: 1;
+}*/
+.loadmore{
+	text-align: center;
+	font-size: 40rpx;
+	color: #c0c0c0;
+	font-weight: bolder;
+	padding-top: 20rpx;
+}

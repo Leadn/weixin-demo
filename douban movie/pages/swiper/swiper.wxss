@@ -1,0 +1,23 @@
+.swiper{
+	width: 750rpx;
+	height: 1254rpx;
+}
+swiper-item{
+	width: 100%;
+	height: 100%;
+}
+.slide-image{
+	width: 100%;
+	height: 100%;
+	opacity: .8;
+}
+.btn{
+	position: absolute;
+	bottom: 200rpx;
+	left: 50%;
+	width: 250rpx;
+	margin-left:-125rpx;
+	border: 2rpx solid #88888; 
+	color: #ffffff;
+	background-color: rgba(53, 73, 94, 0.7);
+}

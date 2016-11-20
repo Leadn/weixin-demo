@@ -1,0 +1,49 @@
+.container{
+	padding:68rpx 100rpx;
+	background-color: #efeff4;
+}
+.pic{
+	width:550rpx;
+	height:700rpx;
+}
+.movies-name{
+	text-align:center;
+	padding:30rpx;
+	font-weight: bolder;
+}
+.item-list{
+	display:flex;
+	flex-direction: column;
+    height: 150rpx;
+}
+.item-list .average,.item-list .director,.item-list .casts{
+	flex: 1;
+	color: #888888;
+	font-size: 20rpx;
+}
+.item-list span{
+	display: inline-block;
+}
+.summary-list{
+	display: flex;
+	flex-direction: column;
+}
+.summary-list .summary-tit{
+	font-size: 60rpx;
+	padding: 40rpx 0;
+}
+.summary-list .summary{
+	font-size: 30rpx;
+	color: #888888; 
+}
+.background{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  opacity: .2;
+}

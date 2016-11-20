@@ -1,0 +1,6 @@
+<import src="../common/movie-list.wxml"/>
+<view class="container">
+	<view class="mov-titile"><text>{{title}}</text></view>
+	<template is="list-item" data="{{list}}"/>
+    <view bindtap="loadMore" data-lastid="{{lastId}}" class="loadmore">{{isload}}</view>
+</view>

@@ -1,0 +1,16 @@
+<view class="container">
+ <image class="background" src="{{list.img}}" mode="aspectFill"/>
+<image class="pic" src="{{list.img}}" mode="aspectFill"/>
+<text class="movies-name">{{list.title}}</text>
+<view class="item-list">
+	<text class="average">{{score}}:{{list.score}}</text>
+	<text class="director">{{director}}:{{list.director}}</text>
+	<text class="casts">
+	{{cast}}:{{list.cast}}
+	</text>
+</view>
+<view class="summary-list">
+	<text class="summary-tit">{{summary}}</text>
+	<text class="summary">{{list.summary}}</text>
+</view>
+</view>

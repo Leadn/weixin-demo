@@ -1,0 +1,21 @@
+<view class="container">
+<navigator url="">
+<view class="person">
+<image src="../../images/person.jpg" class="per"/>
+<text class="name">lily</text>
+<image src="../../images/arrowright.png" class="arrow-right"/> 
+</view>
+</navigator>
+ <navigator url="">
+ 	<view class="help">
+	<text class="tx1">设置</text>
+	<image src="../../images/arrowright.png" class="arrow-right"/>
+</view>
+ </navigator>
+ <navigator url="../feedback/feedback">
+ 	<view class="help">
+	<text class="tx1">用户反馈</text>
+	<image src="../../images/arrowright.png" class="arrow-right"/>
+</view>
+ </navigator>
+</view>

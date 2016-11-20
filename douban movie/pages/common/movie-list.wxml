@@ -1,0 +1,17 @@
+ <template name="list-item">
+	 <view class="list" wx:for="{{list}}">
+	<navigator url="../item/item?id={{item.id}}">
+		<view class="list-item">
+			<view class="item-l">
+				<image src="{{item.img}}" class="pic" />
+				<view class="desc">
+					<text class="text1">{{item.title}}</text>
+					<text class="text2">{{item.movieyear}}</text>
+					<p class="text3">导演：{{item.director}}</p>
+				</view>
+			</view>
+			<view class="item-r"><text>{{item.score}}</text></view>
+		</view>
+	</navigator>
+	</view>
+	</template>
